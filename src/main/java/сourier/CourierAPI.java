@@ -1,6 +1,8 @@
-package ru.yandex.praktikum.couriers;
-import ru.yandex.praktikum.service.Service;
+package Courier;
+
 import io.restassured.response.Response;
+import ru.yandex.praktikum.service.Service;
+
 import static io.restassured.RestAssured.given;
 
 public class CourierAPI extends Service {
